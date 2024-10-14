@@ -15,7 +15,7 @@ function Home() {
         <Create />
         {
             todos.length === 0 ?
-            <div><h2>No Record</h2></div>
+            <div className='task'><h2>No Record</h2></div>
             :
             todos.map(todo => (
                 <div className='task'>
